@@ -1,0 +1,16 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png"
+   },
+   "content_scripts": [ {
+      "js": [ "inject.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "web_accessible_resources": ["content.js"],
+   "manifest_version": 2,
+   "name": "Shopify Theme Validator",
+   "permissions": [ "tabs" ],
+   "short_name": "Shopify Theme Validator",
+   "version": "0.1"
+}
