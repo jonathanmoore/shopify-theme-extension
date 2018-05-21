@@ -20,7 +20,7 @@ if (typeof Shopify != 'undefined') {
   */
   var partnerID;
   if(partnerID !== undefined){
-    log('%c 👉 https://partners.shopify.com/' + partnerID + '/managed_stores/new?shop_permanent_domain=' + Shopify.shop, defaultStyle);
+    log('%c 👉 https://partners.shopify.com/' + partnerID + '/managed_stores/new?shop_domain=' + Shopify.shop, defaultStyle);
   }
 
 } 
